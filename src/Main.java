@@ -225,7 +225,7 @@ public class Main {
                     if (osAlvo != null) {
                         if (osAlvo.getStatusAtual().equals("DESPACHADA")) {
                             osAlvo.iniciarExecucao();
-                        } else if (osAlvo.getStatusAtual().equals("EM_EXECUCAO")) {
+                        } else if (osAlvo.getStatusAtual().equals("EM EXECUCAO")) {
                             EquipeCampo equipeLiberada = osAlvo.getEquipeResponsavel();
 
                             osAlvo.concluir("Serviço finalizado pelo terminal.");
